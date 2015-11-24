@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.blazhkoserghii.catapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Colors"
+            android:label="@string/rainbow"
+            android:icon="@drawable/ic_rainbow">
+        </activity>
+        <activity android:name=".IntentWork"
+            android:label="@string/intentWork">
+        </activity>
+        <activity android:name=".IntentWork2"></activity>
+        <activity android:name=".Sherlock"
+            android:label="@string/sherlock"></activity>
+        <activity android:name=".Sherlock2"
+            android:label="@string/who"></activity>
+    </application>
+
+</manifest>

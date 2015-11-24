@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CatApp</string>
+    <string name="rainbow">Seven colors of the rainbow</string>
+    <string name="intentWork">Work with Intent</string>
+    <string name="rainbow_label">Rainbow</string>
+    <string name="who">Хто вкрав сосіску ?</string>
+    <string name="sherlock">Sherlock</string>
+</resources>
