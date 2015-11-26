@@ -26,6 +26,12 @@ public class MainActivity extends AppCompatActivity  {
             case R.id.Hm3 :
                 startActivity(new Intent(this,Sherlock.class));
                 break;
+            case R.id.Hm4 :
+                startActivity(new Intent(this,Orientation.class));
+                break;
+            case R.id.Hm5 :
+                startActivity(new Intent(this, Styles.class));
+                break;
         }
     }
 }
